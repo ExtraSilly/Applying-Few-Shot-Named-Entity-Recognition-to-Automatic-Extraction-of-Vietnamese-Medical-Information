@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NER COVID-19 Tiếng Việt</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" />
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <div class="header-inner">
+        <div>
+          <h1>🦠 NER COVID-19 Tiếng Việt</h1>
+          <p class="subtitle">
+            Nhận dạng thực thể có tên trong văn bản COVID-19 tiếng Việt
+            &nbsp;·&nbsp; <strong>PhoBERT-base</strong> &nbsp;·&nbsp; PhoNER_COVID19 (NAACL 2021)
+          </p>
+        </div>
+        <div class="status-badge {% if model_ready %}ready{% else %}not-ready{% endif %}">
+          {% if model_ready %}
+            ✅ Model sẵn sàng
+          {% else %}
+            ⚠️ Chưa có model
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+
+    <!-- Stats bar -->
+    <div class="stats-bar">
+      <div class="stat"><span class="stat-num">94.23%</span><span class="stat-lbl">Micro F1 (Full)</span></div>
+      <div class="stat"><span class="stat-num">88.17%</span><span class="stat-lbl">Micro F1 (20-shot)</span></div>
+      <div class="stat"><span class="stat-num">10</span><span class="stat-lbl">Entity types</span></div>
+      <div class="stat"><span class="stat-num">35K+</span><span class="stat-lbl">Entities (train)</span></div>
+      <div class="stat"><span class="stat-num">5,126</span><span class="stat-lbl">Câu train</span></div>
+    </div>
+
+    <div class="grid">
+
+      <!-- Input panel -->
+      <section class="panel">
+        <h2>📝 Nhập văn bản</h2>
+        <p class="hint">
+          Nhập văn bản tiếng Việt <strong>tự nhiên</strong> — hệ thống tự động tách từ
+          bằng <code>underthesea</code> trước khi nhận dạng.
+          Có thể dán nội dung từ trang web hoặc bài báo.
+        </p>
+
+        <label class="field-label">Câu ví dụ:</label>
+        <select id="example-select">
+          <option value="">— Chọn câu ví dụ —</option>
+          <option value="Bệnh nhân 91, nam phi công người Anh, 43 tuổi, đang điều trị tại Bệnh viện Chợ Rẫy từ ngày 18/3.">Bệnh nhân 91 – phi công người Anh</option>
+          <option value="Ca nhiễm thứ 188 là nữ, 20 tuổi, du học sinh vừa trở về từ Anh, hiện cách ly tại Hà Nội.">Bệnh nhân 188 – du học sinh</option>
+          <option value="Một điều dưỡng 24 tuổi của Bệnh viện Bạch Mai đã được xác nhận nhiễm COVID-19.">Điều dưỡng Bạch Mai nhiễm COVID</option>
+          <option value="Bệnh nhân 523 và chồng là bệnh nhân 522, 67 tuổi, được Bộ Y tế ghi nhận nhiễm nCoV hôm 31/7.">Bệnh nhân 522, 523 – vợ chồng</option>
+          <option value="Ca nhiễm mới nhất là nam giáo viên 45 tuổi, cư trú tại quận Hai Bà Trưng, Hà Nội.">Giáo viên quận Hai Bà Trưng</option>
+        </select>
+
+        <label class="field-label" style="margin-top:14px;">Văn bản:</label>
+        <textarea id="input-text" rows="6"
+          placeholder="Dán nội dung trang web hoặc nhập câu tiếng Việt..."></textarea>
+
+        <button id="predict-btn" {% if not model_ready %}disabled{% endif %}>
+          🔍 Nhận dạng thực thể
+        </button>
+
+        {% if not model_ready %}
+        <div class="alert">
+          Model chưa được tải. Chạy lệnh sau rồi khởi động lại server:
+          <pre>python train_baseline.py --mode full --seed 42</pre>
+        </div>
+        {% endif %}
+      </section>
+
+      <!-- Legend panel -->
+      <section class="panel legend-panel">
+        <h2>🎨 Chú thích màu sắc</h2>
+        <div class="legend-list">
+          {% for etype, color in entity_colors.items() %}
+          <div class="legend-item">
+            <span class="legend-dot" style="background:{{ color }};"></span>
+            <span class="legend-vi">{{ entity_vi[etype] }}</span>
+            <code class="legend-code">{{ etype }}</code>
+          </div>
+          {% endfor %}
+        </div>
+      </section>
+
+    </div>
+
+    <!-- Result section -->
+    <section id="result-section" class="panel" style="display:none;">
+      <h2>📊 Kết quả nhận dạng</h2>
+
+      <div id="loading" style="display:none;" class="loading-box">
+        <span class="spinner"></span> Đang xử lý...
+      </div>
+
+      <div id="result-content" style="display:none;">
+        <div id="segmented-section" style="display:none; margin-bottom:12px;">
+          <label class="field-label">Văn bản sau tách từ:</label>
+          <div id="segmented-text" class="highlighted-box" style="color:#555; font-size:0.9em;"></div>
+        </div>
+
+        <label class="field-label">Văn bản được gán nhãn:</label>
+        <div id="highlighted-text" class="highlighted-box"></div>
+
+        <div id="entity-section">
+          <label class="field-label" style="margin-top:20px;">
+            Danh sách thực thể (<span id="entity-count">0</span>):
+          </label>
+          <div id="entity-grid" class="entity-grid"></div>
+        </div>
+
+        <div id="no-entity-msg" class="no-entity" style="display:none;">
+          Không tìm thấy thực thể nào trong câu này.
+        </div>
+      </div>
+
+      <div id="error-msg" class="alert" style="display:none;"></div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>
+        Đồ án: <strong>Few-shot NER COVID-19 Tiếng Việt</strong> &nbsp;·&nbsp;
+        PhoBERT-base (VinAI) &nbsp;·&nbsp;
+        PhoNER_COVID19 — Truong et al., NAACL 2021
+      </p>
+    </div>
+  </footer>
+
+  <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>

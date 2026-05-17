@@ -1,0 +1,46 @@
+[
+  {
+    "tokens": [
+      "Bác_sĩ",
+      "được",
+      "phân_công",
+      "phụ_trách",
+      "điều_trị",
+      "bệnh_nhân",
+      "F0",
+      "."
+    ],
+    "ner_tags": [
+      "B-JOB",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Nhân_viên",
+      "y_tế",
+      "tham_gia",
+      "lấy_mẫu",
+      "xét_nghiệm",
+      "theo",
+      "kế_hoạch",
+      "."
+    ],
+    "ner_tags": [
+      "B-JOB",
+      "I-JOB",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  }
+]

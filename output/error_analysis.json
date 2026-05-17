@@ -1,0 +1,672 @@
+{
+  "total_errors": 877,
+  "error_distribution": {
+    "MISSED": 242,
+    "TYPE_ERROR": 78,
+    "BOUNDARY": 264,
+    "SPURIOUS": 274,
+    "TYPE_AND_BOUNDARY": 19
+  },
+  "per_entity_type": {
+    "JOB": [
+      {
+        "error_type": "MISSED",
+        "gold_text": "bán tạp_hoá",
+        "gold_type": "JOB",
+        "context": "An_Sơn cùng mẹ bán tạp_hoá ở đây ."
+      },
+      {
+        "error_type": "MISSED",
+        "gold_text": "nhân_viên ngân_hàng",
+        "gold_type": "JOB",
+        "context": "N.M.C. , là nhân_viên ngân_hàng tại 38 Hàng"
+      },
+      {
+        "error_type": "BOUNDARY",
+        "gold_text": "tiểu_thương bán hải_sản",
+        "pred_text": "tiểu_thương",
+        "entity_type": "JOB",
+        "context": "51 tuổi , tiểu_thương bán hải_sản ở"
+      },
+      {
+        "error_type": "SPURIOUS",
+        "pred_text": "nhân_viên",
+        "pred_type": "JOB",
+        "context": "127 ( nam nhân_viên quán bar Buddha"
+      },
+      {
+        "error_type": "MISSED",
+        "gold_text": "nhân_viên quán rượu",
+        "gold_type": "JOB",
+        "context": "Oanh là nhân_viên quán rượu tại Bangkok ("
+      }
+    ],
+    "ORGANIZATION": [
+      {
+        "error_type": "TYPE_ERROR",
+        "gold_text": "Bệnh_viện Chợ_Rẫy",
+        "gold_type": "ORGANIZATION",
+        "pred_type": "LOCATION",
+        "context": "Trần_Thanh_Linh , từ Bệnh_viện Chợ_Rẫy chi_viện phụ_trách đơn_nguyên"
+      },
+      {
+        "error_type": "BOUNDARY",
+        "gold_text": "Hội Thanh_niên , sinh_viên Việt_Nam tại Czech",
+        "pred_text": "Hội Thanh_niên , sinh_viên Việt_Nam tại",
+        "entity_type": "ORGANIZATION",
+        "context": "- 3 , Hội Thanh_niên , sinh_viên Việt_Nam tại Czech đã tìm"
+      },
+      {
+        "error_type": "TYPE_ERROR",
+        "gold_text": "Khoa_Chấn thương chỉnh_hình bệnh_viện Xanh_Pôn",
+        "gold_type": "ORGANIZATION",
+        "pred_type": "LOCATION",
+        "context": "Khoa_Chấn thương chỉnh_hình bệnh_viện Xanh_Pôn tối 30/3 hoạt_động"
+      },
+      {
+        "error_type": "BOUNDARY",
+        "gold_text": "Công_an huyện Bá_Thước",
+        "pred_text": "Công_an",
+        "entity_type": "ORGANIZATION",
+        "context": "Thanh_Hoá đã phối_hợp Công_an huyện Bá_Thước rà_soát"
+      },
+      {
+        "error_type": "TYPE_ERROR",
+        "gold_text": "Bệnh_viện Nhiệt_đới trung_ương 2",
+        "gold_type": "ORGANIZATION",
+        "pred_type": "LOCATION",
+        "context": "được chuyển tới Bệnh_viện Nhiệt_đới trung_ương 2 ."
+      }
+    ],
+    "LOCATION": [
+      {
+        "error_type": "BOUNDARY",
+        "gold_text": "Láng",
+        "pred_text": "Láng - Hoà_Lạc",
+        "entity_type": "LOCATION",
+        "context": "Đại_học FPT ở Láng - Hoà_Lạc ( Hà_Nội )"
+      },
+      {
+        "error_type": "MISSED",
+        "gold_text": "Hoà_Lạc",
+        "gold_type": "LOCATION",
+        "context": "ở Láng - Hoà_Lạc ( Hà_Nội )"
+      },
+      {
+        "error_type": "BOUNDARY",
+        "gold_text": "Trung_tâm Giáo_dục quốc_phòng an_ninh",
+        "pred_text": "Trung_tâm Giáo_dục quốc_phòng an_ninh , ĐH Nha_Trang",
+        "entity_type": "LOCATION",
+        "context": "cách_ly tập_trung tại Trung_tâm Giáo_dục quốc_phòng an_ninh , ĐH Nha_Trang , Khánh_Hoà ."
+      },
+      {
+        "error_type": "MISSED",
+        "gold_text": "ĐH Nha_Trang",
+        "gold_type": "LOCATION",
+        "context": "quốc_phòng an_ninh , ĐH Nha_Trang , Khánh_Hoà ."
+      },
+      {
+        "error_type": "MISSED",
+        "gold_text": "khoa truyền_nhiễm",
+        "gold_type": "LOCATION",
+        "context": "được chuyển từ khoa truyền_nhiễm của Bệnh_viện Đa_khoa"
+      }
+    ],
+    "SYMPTOM_AND_DISEASE": [
+      {
+        "error_type": "BOUNDARY",
+        "gold_text": "sức_khoẻ suy_kiệt",
+        "pred_text": "suy_kiệt",
+        "entity_type": "SYMPTOM_AND_DISEASE",
+        "context": "tuổi tuổi , sức_khoẻ suy_kiệt ."
+      },
+      {
+        "error_type": "BOUNDARY",
+        "gold_text": "tràn khí màng phổi đã dẫn_lưu",
+        "pred_text": "tràn khí màng phổi",
+        "entity_type": "SYMPTOM_AND_DISEASE",
+        "context": "10 năm , tràn khí màng phổi đã dẫn_lưu ."
+      },
+      {
+        "error_type": "BOUNDARY",
+        "gold_text": "COPD",
+        "pred_text": "COPD )",
+        "entity_type": "SYMPTOM_AND_DISEASE",
+        "context": "tắc_nghẽn mạn_tính ( COPD ) và u ác"
+      },
+      {
+        "error_type": "MISSED",
+        "gold_text": "ung_thư",
+        "gold_type": "SYMPTOM_AND_DISEASE",
+        "context": ", hoặc bệnh_nhân ung_thư ."
+      },
+      {
+        "error_type": "BOUNDARY",
+        "gold_text": "bệnh mạch vành",
+        "pred_text": "bệnh",
+        "entity_type": "SYMPTOM_AND_DISEASE",
+        "context": ", đái_tháo_đường , bệnh mạch vành đặt"
+      }
+    ],
+    "PATIENT_ID": [
+      {
+        "error_type": "MISSED",
+        "gold_text": "222",
+        "gold_type": "PATIENT_ID",
+        "context": ") ; bệnh_nhân 222 ( nữ ,"
+      },
+      {
+        "error_type": "BOUNDARY",
+        "gold_text": "BN 1068",
+        "pred_text": "1068",
+        "entity_type": "PATIENT_ID",
+        "context": "bệnh 1068 ( BN 1068 ) : bệnh_nhân"
+      },
+      {
+        "error_type": "SPURIOUS",
+        "pred_text": "88",
+        "pred_type": "PATIENT_ID",
+        "context": "tổng_số người tiếp_xúc 88 , trong đó"
+      },
+      {
+        "error_type": "BOUNDARY",
+        "gold_text": "BN 318",
+        "pred_text": "318",
+        "entity_type": "PATIENT_ID",
+        "context": "bệnh 318 ( BN 318 ) : Bệnh_nhân"
+      },
+      {
+        "error_type": "BOUNDARY",
+        "gold_text": "BN 456",
+        "pred_text": "456",
+        "entity_type": "PATIENT_ID",
+        "context": "đám_tang và tiếp_xúc BN 456 ."
+      }
+    ],
+    "GENDER": [
+      {
+        "error_type": "MISSED",
+        "gold_text": "nữ",
+        "gold_type": "GENDER",
+        "context": "bệnh_nhân 222 ( nữ , 28 tuổi"
+      },
+      {
+        "error_type": "MISSED",
+        "gold_text": "nữ",
+        "gold_type": "GENDER",
+        "context": "tiếp_xúc gần với nữ bệnh_nhân nhiễm COVID"
+      },
+      {
+        "error_type": "MISSED",
+        "gold_text": "gái",
+        "gold_type": "GENDER",
+        "context": "861 đưa con gái đến Trạm y_tế"
+      },
+      {
+        "error_type": "SPURIOUS",
+        "pred_text": "nam",
+        "pred_type": "GENDER",
+        "context": "Bệnh_viện E là nam , 87 tuổi"
+      },
+      {
+        "error_type": "MISSED",
+        "gold_text": "nữ",
+        "gold_type": "GENDER",
+        "context": "vừa đóng , nữ công_nhân môi_trường Nguyễn_Thị_Quyên"
+      }
+    ],
+    "AGE": [
+      {
+        "error_type": "MISSED",
+        "gold_text": "28",
+        "gold_type": "AGE",
+        "context": "( nữ , 28 tuổi , quốc_tịch"
+      },
+      {
+        "error_type": "SPURIOUS",
+        "pred_text": "24",
+        "pred_type": "AGE",
+        "context": "là nữ , 24 tuổi , quốc_tịch"
+      },
+      {
+        "error_type": "TYPE_AND_BOUNDARY",
+        "gold_text": "20",
+        "pred_text": "20 - 78",
+        "gold_type": "AGE",
+        "pred_type": "DATE",
+        "context": "độ tuổi từ 20 - 78 ."
+      },
+      {
+        "error_type": "MISSED",
+        "gold_text": "78",
+        "gold_type": "AGE",
+        "context": "từ 20 - 78 ."
+      },
+      {
+        "error_type": "MISSED",
+        "gold_text": "29",
+        "gold_type": "AGE",
+        "context": "đó , bệnh_nhân 29 tuổi , địa_chỉ"
+      }
+    ],
+    "DATE": [
+      {
+        "error_type": "BOUNDARY",
+        "gold_text": "2",
+        "pred_text": "tháng 2",
+        "entity_type": "DATE",
+        "context": "hồi đầu tháng 2 trong tình_trạng khó"
+      },
+      {
+        "error_type": "BOUNDARY",
+        "gold_text": "7",
+        "pred_text": "tháng 7",
+        "entity_type": "DATE",
+        "context": "Trong tháng 7 , bệnh_nhân đi"
+      },
+      {
+        "error_type": "SPURIOUS",
+        "pred_text": "tháng 7",
+        "pred_type": "DATE",
+        "context": "Từ cuối tháng 7 , nghe tin"
+      },
+      {
+        "error_type": "MISSED",
+        "gold_text": "11/2018",
+        "gold_type": "DATE",
+        "context": "gái sinh tháng 11/2018 , nhà ở"
+      },
+      {
+        "error_type": "SPURIOUS",
+        "pred_text": "tháng 7",
+        "pred_type": "DATE",
+        "context": "nhập_viện từ đầu tháng 7 ."
+      }
+    ],
+    "NAME": [
+      {
+        "error_type": "SPURIOUS",
+        "pred_text": "Trương_Thị_Thuỳ_Dung",
+        "pred_type": "NAME",
+        "context": "tỉnh Nghệ_An , Trương_Thị_Thuỳ_Dung , học_sinh trường"
+      },
+      {
+        "error_type": "SPURIOUS",
+        "pred_text": "Dung",
+        "pred_type": "NAME",
+        "context": "khoảng_cách từ nhà Dung đến An_Hoà chỉ"
+      },
+      {
+        "error_type": "SPURIOUS",
+        "pred_text": "Viễn",
+        "pred_type": "NAME",
+        "context": "419 của bác_sĩ Viễn ."
+      },
+      {
+        "error_type": "SPURIOUS",
+        "pred_text": "Linh",
+        "pred_type": "NAME",
+        "context": "có biệt_danh \" Linh 91 \" kể"
+      },
+      {
+        "error_type": "MISSED",
+        "gold_text": "Nguyễn_Thị_Quyên",
+        "gold_type": "NAME",
+        "context": "nữ công_nhân môi_trường Nguyễn_Thị_Quyên ( 53 tuổi"
+      }
+    ],
+    "TRANSPORTATION": [
+      {
+        "error_type": "TYPE_ERROR",
+        "gold_text": "tàu IPANEMA",
+        "gold_type": "TRANSPORTATION",
+        "pred_type": "ORGANIZATION",
+        "context": "Myanmar , thuỷ_thủ tàu IPANEMA ."
+      },
+      {
+        "error_type": "SPURIOUS",
+        "pred_text": "02",
+        "pred_type": "TRANSPORTATION",
+        "context": "bắt xe_buýt tuyến 02 Thanh_Hà - Hải_Dương"
+      },
+      {
+        "error_type": "MISSED",
+        "gold_text": "EK4",
+        "gold_type": "TRANSPORTATION",
+        "context": "chuyến bay Emirates EK4 , số ghế"
+      },
+      {
+        "error_type": "SPURIOUS",
+        "pred_text": "02",
+        "pred_type": "TRANSPORTATION",
+        "context": "bắt xe_buýt tuyến 02 Hải_Dương - Thanh_Hà"
+      }
+    ]
+  },
+  "sample_errors": [
+    {
+      "error_type": "MISSED",
+      "gold_text": "bán tạp_hoá",
+      "gold_type": "JOB",
+      "context": "An_Sơn cùng mẹ bán tạp_hoá ở đây ."
+    },
+    {
+      "error_type": "TYPE_ERROR",
+      "gold_text": "Bệnh_viện Chợ_Rẫy",
+      "gold_type": "ORGANIZATION",
+      "pred_type": "LOCATION",
+      "context": "Trần_Thanh_Linh , từ Bệnh_viện Chợ_Rẫy chi_viện phụ_trách đơn_nguyên"
+    },
+    {
+      "error_type": "BOUNDARY",
+      "gold_text": "Láng",
+      "pred_text": "Láng - Hoà_Lạc",
+      "entity_type": "LOCATION",
+      "context": "Đại_học FPT ở Láng - Hoà_Lạc ( Hà_Nội )"
+    },
+    {
+      "error_type": "MISSED",
+      "gold_text": "Hoà_Lạc",
+      "gold_type": "LOCATION",
+      "context": "ở Láng - Hoà_Lạc ( Hà_Nội )"
+    },
+    {
+      "error_type": "BOUNDARY",
+      "gold_text": "Trung_tâm Giáo_dục quốc_phòng an_ninh",
+      "pred_text": "Trung_tâm Giáo_dục quốc_phòng an_ninh , ĐH Nha_Trang",
+      "entity_type": "LOCATION",
+      "context": "cách_ly tập_trung tại Trung_tâm Giáo_dục quốc_phòng an_ninh , ĐH Nha_Trang , Khánh_Hoà ."
+    },
+    {
+      "error_type": "MISSED",
+      "gold_text": "ĐH Nha_Trang",
+      "gold_type": "LOCATION",
+      "context": "quốc_phòng an_ninh , ĐH Nha_Trang , Khánh_Hoà ."
+    },
+    {
+      "error_type": "BOUNDARY",
+      "gold_text": "sức_khoẻ suy_kiệt",
+      "pred_text": "suy_kiệt",
+      "entity_type": "SYMPTOM_AND_DISEASE",
+      "context": "tuổi tuổi , sức_khoẻ suy_kiệt ."
+    },
+    {
+      "error_type": "MISSED",
+      "gold_text": "222",
+      "gold_type": "PATIENT_ID",
+      "context": ") ; bệnh_nhân 222 ( nữ ,"
+    },
+    {
+      "error_type": "MISSED",
+      "gold_text": "nữ",
+      "gold_type": "GENDER",
+      "context": "bệnh_nhân 222 ( nữ , 28 tuổi"
+    },
+    {
+      "error_type": "MISSED",
+      "gold_text": "28",
+      "gold_type": "AGE",
+      "context": "( nữ , 28 tuổi , quốc_tịch"
+    },
+    {
+      "error_type": "MISSED",
+      "gold_text": "nhân_viên ngân_hàng",
+      "gold_type": "JOB",
+      "context": "N.M.C. , là nhân_viên ngân_hàng tại 38 Hàng"
+    },
+    {
+      "error_type": "BOUNDARY",
+      "gold_text": "tràn khí màng phổi đã dẫn_lưu",
+      "pred_text": "tràn khí màng phổi",
+      "entity_type": "SYMPTOM_AND_DISEASE",
+      "context": "10 năm , tràn khí màng phổi đã dẫn_lưu ."
+    },
+    {
+      "error_type": "MISSED",
+      "gold_text": "khoa truyền_nhiễm",
+      "gold_type": "LOCATION",
+      "context": "được chuyển từ khoa truyền_nhiễm của Bệnh_viện Đa_khoa"
+    },
+    {
+      "error_type": "BOUNDARY",
+      "gold_text": "khoa Nội - Tiết_niệu",
+      "pred_text": "khoa Nội - Tiết_niệu , Bệnh_viện Đà_Nẵng",
+      "entity_type": "LOCATION",
+      "context": "428 \" tại khoa Nội - Tiết_niệu , Bệnh_viện Đà_Nẵng ."
+    },
+    {
+      "error_type": "MISSED",
+      "gold_text": "Bệnh_viện Đà_Nẵng",
+      "gold_type": "LOCATION",
+      "context": "- Tiết_niệu , Bệnh_viện Đà_Nẵng ."
+    },
+    {
+      "error_type": "BOUNDARY",
+      "gold_text": "tiểu_thương bán hải_sản",
+      "pred_text": "tiểu_thương",
+      "entity_type": "JOB",
+      "context": "51 tuổi , tiểu_thương bán hải_sản ở"
+    },
+    {
+      "error_type": "BOUNDARY",
+      "gold_text": "Hội Thanh_niên , sinh_viên Việt_Nam tại Czech",
+      "pred_text": "Hội Thanh_niên , sinh_viên Việt_Nam tại",
+      "entity_type": "ORGANIZATION",
+      "context": "- 3 , Hội Thanh_niên , sinh_viên Việt_Nam tại Czech đã tìm"
+    },
+    {
+      "error_type": "SPURIOUS",
+      "pred_text": "Czech",
+      "pred_type": "LOCATION",
+      "context": "sinh_viên Việt_Nam tại Czech đã tìm ra"
+    },
+    {
+      "error_type": "BOUNDARY",
+      "gold_text": "COPD",
+      "pred_text": "COPD )",
+      "entity_type": "SYMPTOM_AND_DISEASE",
+      "context": "tắc_nghẽn mạn_tính ( COPD ) và u ác"
+    },
+    {
+      "error_type": "MISSED",
+      "gold_text": "ung_thư",
+      "gold_type": "SYMPTOM_AND_DISEASE",
+      "context": ", hoặc bệnh_nhân ung_thư ."
+    },
+    {
+      "error_type": "BOUNDARY",
+      "gold_text": "bệnh mạch vành",
+      "pred_text": "bệnh",
+      "entity_type": "SYMPTOM_AND_DISEASE",
+      "context": ", đái_tháo_đường , bệnh mạch vành đặt"
+    },
+    {
+      "error_type": "SPURIOUS",
+      "pred_text": "mạch vành",
+      "pred_type": "SYMPTOM_AND_DISEASE",
+      "context": "đái_tháo_đường , bệnh mạch vành đặt 2 -"
+    },
+    {
+      "error_type": "SPURIOUS",
+      "pred_text": "nhân_viên",
+      "pred_type": "JOB",
+      "context": "127 ( nam nhân_viên quán bar Buddha"
+    },
+    {
+      "error_type": "BOUNDARY",
+      "gold_text": "Bệnh viện Bệnh nhiệt đới trung ương cơ sở Đông Anh",
+      "pred_text": "Bệnh viện Bệnh nhiệt",
+      "entity_type": "LOCATION",
+      "context": "bệnh nhân tại Bệnh viện Bệnh nhiệt đới trung ương"
+    },
+    {
+      "error_type": "BOUNDARY",
+      "gold_text": "Bệnh viện Bệnh nhiệt đới tỉnh Hải Dương",
+      "pred_text": "Bệnh viện Bệnh nhiệt",
+      "entity_type": "LOCATION",
+      "context": "1 bệnh_nhân tại Bệnh viện Bệnh nhiệt đới tỉnh Hải"
+    },
+    {
+      "error_type": "MISSED",
+      "gold_text": "Bệnh viện Lao và bệnh phổi Cần Thơ",
+      "gold_type": "LOCATION",
+      "context": "1 bệnh_nhân tại Bệnh viện Lao và bệnh phổi Cần Thơ ."
+    },
+    {
+      "error_type": "SPURIOUS",
+      "pred_text": "Đông Anh",
+      "pred_type": "LOCATION",
+      "context": "ương cơ sở Đông Anh ( Hà_Nội )"
+    },
+    {
+      "error_type": "BOUNDARY",
+      "gold_text": "quán cà_phê khu 5",
+      "pred_text": "khu 5",
+      "entity_type": "LOCATION",
+      "context": "tuổi , ra quán cà_phê khu 5 ; \" bệnh_nhân"
+    },
+    {
+      "error_type": "TYPE_ERROR",
+      "gold_text": "Khoa_Chấn thương chỉnh_hình bệnh_viện Xanh_Pôn",
+      "gold_type": "ORGANIZATION",
+      "pred_type": "LOCATION",
+      "context": "Khoa_Chấn thương chỉnh_hình bệnh_viện Xanh_Pôn tối 30/3 hoạt_động"
+    },
+    {
+      "error_type": "BOUNDARY",
+      "gold_text": "cơ_thể mệt_mỏi",
+      "pred_text": "mệt_mỏi",
+      "entity_type": "SYMPTOM_AND_DISEASE",
+      "context": "không dứt , cơ_thể mệt_mỏi , bà vẫn"
+    },
+    {
+      "error_type": "MISSED",
+      "gold_text": "nhân_viên quán rượu",
+      "gold_type": "JOB",
+      "context": "Oanh là nhân_viên quán rượu tại Bangkok ("
+    },
+    {
+      "error_type": "BOUNDARY",
+      "gold_text": "Công_an huyện Bá_Thước",
+      "pred_text": "Công_an",
+      "entity_type": "ORGANIZATION",
+      "context": "Thanh_Hoá đã phối_hợp Công_an huyện Bá_Thước rà_soát"
+    },
+    {
+      "error_type": "SPURIOUS",
+      "pred_text": "24",
+      "pred_type": "AGE",
+      "context": "là nữ , 24 tuổi , quốc_tịch"
+    },
+    {
+      "error_type": "TYPE_ERROR",
+      "gold_text": "Bệnh_viện Nhiệt_đới trung_ương 2",
+      "gold_type": "ORGANIZATION",
+      "pred_type": "LOCATION",
+      "context": "được chuyển tới Bệnh_viện Nhiệt_đới trung_ương 2 ."
+    },
+    {
+      "error_type": "SPURIOUS",
+      "pred_text": "Trung_tâm CDC",
+      "pred_type": "ORGANIZATION",
+      "context": "- 8 , Trung_tâm CDC xét_nghiệm ( lần"
+    },
+    {
+      "error_type": "TYPE_ERROR",
+      "gold_text": "Khoa_Y học Nhiệt_đới",
+      "gold_type": "ORGANIZATION",
+      "pred_type": "LOCATION",
+      "context": "được chuyển sang Khoa_Y học Nhiệt_đới của Bệnh_viện Đà_Nẵng"
+    },
+    {
+      "error_type": "TYPE_ERROR",
+      "gold_text": "Bệnh_viện Đà_Nẵng",
+      "gold_type": "ORGANIZATION",
+      "pred_type": "LOCATION",
+      "context": "học Nhiệt_đới của Bệnh_viện Đà_Nẵng lúc 23h30 cùng"
+    },
+    {
+      "error_type": "MISSED",
+      "gold_text": "tài_xế",
+      "gold_type": "JOB",
+      "context": "ngày 12/8 , tài_xế Huỳnh_Tấn_Tâm , 39"
+    },
+    {
+      "error_type": "BOUNDARY",
+      "gold_text": "BN 1068",
+      "pred_text": "1068",
+      "entity_type": "PATIENT_ID",
+      "context": "bệnh 1068 ( BN 1068 ) : bệnh_nhân"
+    },
+    {
+      "error_type": "BOUNDARY",
+      "gold_text": "giáo_viên",
+      "pred_text": "giáo_viên Eschool",
+      "entity_type": "JOB",
+      "context": "31 tuổi , giáo_viên Eschool - Eclass ,"
+    },
+    {
+      "error_type": "MISSED",
+      "gold_text": "Eschool - Eclass",
+      "gold_type": "ORGANIZATION",
+      "context": "tuổi , giáo_viên Eschool - Eclass , hiện ngụ"
+    },
+    {
+      "error_type": "SPURIOUS",
+      "pred_text": "tim_mạch",
+      "pred_type": "SYMPTOM_AND_DISEASE",
+      "context": "người có bệnh_lý tim_mạch , trào ngược"
+    },
+    {
+      "error_type": "MISSED",
+      "gold_text": "nữ",
+      "gold_type": "GENDER",
+      "context": "tiếp_xúc gần với nữ bệnh_nhân nhiễm COVID"
+    },
+    {
+      "error_type": "BOUNDARY",
+      "gold_text": "du_học học_sinh",
+      "pred_text": "du_học",
+      "entity_type": "JOB",
+      "context": "tuổi , nam du_học học_sinh Mỹ nhập_cảnh"
+    },
+    {
+      "error_type": "MISSED",
+      "gold_text": "Mỹ",
+      "gold_type": "LOCATION",
+      "context": "nam du_học học_sinh Mỹ nhập_cảnh hôm 30/7"
+    },
+    {
+      "error_type": "SPURIOUS",
+      "pred_text": "học_sinh",
+      "pred_type": "JOB",
+      "context": ", nam du_học học_sinh Mỹ nhập_cảnh hôm"
+    },
+    {
+      "error_type": "BOUNDARY",
+      "gold_text": "hội_chứng suy hô_hấp tiến_triển",
+      "pred_text": "suy hô_hấp tiến_triển",
+      "entity_type": "SYMPTOM_AND_DISEASE",
+      "context": "biến_chứng nặng của hội_chứng suy hô_hấp tiến_triển do \" cơn"
+    },
+    {
+      "error_type": "BOUNDARY",
+      "gold_text": "cơn bão Cytokine",
+      "pred_text": "bão Cytokine",
+      "entity_type": "SYMPTOM_AND_DISEASE",
+      "context": "tiến_triển do \" cơn bão Cytokine \" ( phản_ứng"
+    },
+    {
+      "error_type": "MISSED",
+      "gold_text": "miễn_dịch quá mức đối_với các kích_thích đối_với cơ_thể từ bên ngoài",
+      "gold_type": "SYMPTOM_AND_DISEASE",
+      "context": "\" ( phản_ứng miễn_dịch quá mức đối_với các kích_thích đối_với cơ_thể từ bên ngoài ) , tình_trạng"
+    },
+    {
+      "error_type": "SPURIOUS",
+      "pred_text": "phi_công",
+      "pred_type": "JOB",
+      "context": "tương_tự bệnh_nhân 91 phi_công người Anh ."
+    }
+  ]
+}

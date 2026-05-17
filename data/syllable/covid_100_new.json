@@ -1,0 +1,1782 @@
+[
+  {
+    "tokens": [
+      "Bác_sĩ",
+      "hồi_sức",
+      "được",
+      "điều_động",
+      "tăng_cường",
+      "."
+    ],
+    "ner_tags": [
+      "B-JOB",
+      "I-JOB",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Nhân_viên",
+      "y_tế",
+      "cơ_sở",
+      "tham_gia",
+      "lấy_mẫu",
+      "."
+    ],
+    "ner_tags": [
+      "B-JOB",
+      "I-JOB",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Điều_dưỡng",
+      "trưởng",
+      "phụ_trách",
+      "khu",
+      "điều_trị",
+      "."
+    ],
+    "ner_tags": [
+      "B-JOB",
+      "I-JOB",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Cán_bộ",
+      "phòng_chống",
+      "dịch",
+      "được",
+      "phân_công",
+      "."
+    ],
+    "ner_tags": [
+      "B-JOB",
+      "I-JOB",
+      "I-JOB",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Bệnh_nhân",
+      "được",
+      "đưa",
+      "bằng",
+      "xe_cấp_cứu",
+      "."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-TRANSPORTATION",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Ca",
+      "bệnh",
+      "di_chuyển",
+      "trên",
+      "chuyến_bay",
+      "VN734",
+      "."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-TRANSPORTATION",
+      "I-TRANSPORTATION",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Người",
+      "tiếp_xúc",
+      "đi",
+      "tàu_hỏa",
+      "."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "B-TRANSPORTATION",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Bệnh_nhân",
+      "T.V.H",
+      "đang",
+      "điều_trị",
+      "."
+    ],
+    "ner_tags": [
+      "O",
+      "B-NAME",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Trường_hợp",
+      "N.Q.T",
+      "đã",
+      "khỏi",
+      "bệnh",
+      "."
+    ],
+    "ner_tags": [
+      "O",
+      "B-NAME",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Ca",
+      "nhiễm",
+      "L.M.A",
+      "liên_quan",
+      "ổ_dịch",
+      "."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "B-NAME",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Bác_sĩ",
+      "hồi_sức",
+      "được",
+      "điều_động",
+      "tăng_cường",
+      "."
+    ],
+    "ner_tags": [
+      "B-JOB",
+      "I-JOB",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Nhân_viên",
+      "y_tế",
+      "cơ_sở",
+      "tham_gia",
+      "lấy_mẫu",
+      "."
+    ],
+    "ner_tags": [
+      "B-JOB",
+      "I-JOB",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Điều_dưỡng",
+      "trưởng",
+      "phụ_trách",
+      "khu",
+      "điều_trị",
+      "."
+    ],
+    "ner_tags": [
+      "B-JOB",
+      "I-JOB",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Cán_bộ",
+      "phòng_chống",
+      "dịch",
+      "được",
+      "phân_công",
+      "."
+    ],
+    "ner_tags": [
+      "B-JOB",
+      "I-JOB",
+      "I-JOB",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Bệnh_nhân",
+      "được",
+      "đưa",
+      "bằng",
+      "xe_cấp_cứu",
+      "."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-TRANSPORTATION",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Ca",
+      "bệnh",
+      "di_chuyển",
+      "trên",
+      "chuyến_bay",
+      "VN734",
+      "."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-TRANSPORTATION",
+      "I-TRANSPORTATION",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Người",
+      "tiếp_xúc",
+      "đi",
+      "tàu_hỏa",
+      "."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "B-TRANSPORTATION",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Bệnh_nhân",
+      "T.V.H",
+      "đang",
+      "điều_trị",
+      "."
+    ],
+    "ner_tags": [
+      "O",
+      "B-NAME",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Trường_hợp",
+      "N.Q.T",
+      "đã",
+      "khỏi",
+      "bệnh",
+      "."
+    ],
+    "ner_tags": [
+      "O",
+      "B-NAME",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Ca",
+      "nhiễm",
+      "L.M.A",
+      "liên_quan",
+      "ổ_dịch",
+      "."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "B-NAME",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Bác_sĩ",
+      "hồi_sức",
+      "được",
+      "điều_động",
+      "tăng_cường",
+      "."
+    ],
+    "ner_tags": [
+      "B-JOB",
+      "I-JOB",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Nhân_viên",
+      "y_tế",
+      "cơ_sở",
+      "tham_gia",
+      "lấy_mẫu",
+      "."
+    ],
+    "ner_tags": [
+      "B-JOB",
+      "I-JOB",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Điều_dưỡng",
+      "trưởng",
+      "phụ_trách",
+      "khu",
+      "điều_trị",
+      "."
+    ],
+    "ner_tags": [
+      "B-JOB",
+      "I-JOB",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Cán_bộ",
+      "phòng_chống",
+      "dịch",
+      "được",
+      "phân_công",
+      "."
+    ],
+    "ner_tags": [
+      "B-JOB",
+      "I-JOB",
+      "I-JOB",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Bệnh_nhân",
+      "được",
+      "đưa",
+      "bằng",
+      "xe_cấp_cứu",
+      "."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-TRANSPORTATION",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Ca",
+      "bệnh",
+      "di_chuyển",
+      "trên",
+      "chuyến_bay",
+      "VN734",
+      "."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-TRANSPORTATION",
+      "I-TRANSPORTATION",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Người",
+      "tiếp_xúc",
+      "đi",
+      "tàu_hỏa",
+      "."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "B-TRANSPORTATION",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Bệnh_nhân",
+      "T.V.H",
+      "đang",
+      "điều_trị",
+      "."
+    ],
+    "ner_tags": [
+      "O",
+      "B-NAME",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Trường_hợp",
+      "N.Q.T",
+      "đã",
+      "khỏi",
+      "bệnh",
+      "."
+    ],
+    "ner_tags": [
+      "O",
+      "B-NAME",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Ca",
+      "nhiễm",
+      "L.M.A",
+      "liên_quan",
+      "ổ_dịch",
+      "."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "B-NAME",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Bác_sĩ",
+      "hồi_sức",
+      "được",
+      "điều_động",
+      "tăng_cường",
+      "."
+    ],
+    "ner_tags": [
+      "B-JOB",
+      "I-JOB",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Nhân_viên",
+      "y_tế",
+      "cơ_sở",
+      "tham_gia",
+      "lấy_mẫu",
+      "."
+    ],
+    "ner_tags": [
+      "B-JOB",
+      "I-JOB",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Điều_dưỡng",
+      "trưởng",
+      "phụ_trách",
+      "khu",
+      "điều_trị",
+      "."
+    ],
+    "ner_tags": [
+      "B-JOB",
+      "I-JOB",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Cán_bộ",
+      "phòng_chống",
+      "dịch",
+      "được",
+      "phân_công",
+      "."
+    ],
+    "ner_tags": [
+      "B-JOB",
+      "I-JOB",
+      "I-JOB",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Bệnh_nhân",
+      "được",
+      "đưa",
+      "bằng",
+      "xe_cấp_cứu",
+      "."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-TRANSPORTATION",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Ca",
+      "bệnh",
+      "di_chuyển",
+      "trên",
+      "chuyến_bay",
+      "VN734",
+      "."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-TRANSPORTATION",
+      "I-TRANSPORTATION",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Người",
+      "tiếp_xúc",
+      "đi",
+      "tàu_hỏa",
+      "."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "B-TRANSPORTATION",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Bệnh_nhân",
+      "T.V.H",
+      "đang",
+      "điều_trị",
+      "."
+    ],
+    "ner_tags": [
+      "O",
+      "B-NAME",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Trường_hợp",
+      "N.Q.T",
+      "đã",
+      "khỏi",
+      "bệnh",
+      "."
+    ],
+    "ner_tags": [
+      "O",
+      "B-NAME",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Ca",
+      "nhiễm",
+      "L.M.A",
+      "liên_quan",
+      "ổ_dịch",
+      "."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "B-NAME",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Bác_sĩ",
+      "hồi_sức",
+      "được",
+      "điều_động",
+      "tăng_cường",
+      "."
+    ],
+    "ner_tags": [
+      "B-JOB",
+      "I-JOB",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Nhân_viên",
+      "y_tế",
+      "cơ_sở",
+      "tham_gia",
+      "lấy_mẫu",
+      "."
+    ],
+    "ner_tags": [
+      "B-JOB",
+      "I-JOB",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Điều_dưỡng",
+      "trưởng",
+      "phụ_trách",
+      "khu",
+      "điều_trị",
+      "."
+    ],
+    "ner_tags": [
+      "B-JOB",
+      "I-JOB",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Cán_bộ",
+      "phòng_chống",
+      "dịch",
+      "được",
+      "phân_công",
+      "."
+    ],
+    "ner_tags": [
+      "B-JOB",
+      "I-JOB",
+      "I-JOB",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Bệnh_nhân",
+      "được",
+      "đưa",
+      "bằng",
+      "xe_cấp_cứu",
+      "."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-TRANSPORTATION",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Ca",
+      "bệnh",
+      "di_chuyển",
+      "trên",
+      "chuyến_bay",
+      "VN734",
+      "."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-TRANSPORTATION",
+      "I-TRANSPORTATION",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Người",
+      "tiếp_xúc",
+      "đi",
+      "tàu_hỏa",
+      "."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "B-TRANSPORTATION",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Bệnh_nhân",
+      "T.V.H",
+      "đang",
+      "điều_trị",
+      "."
+    ],
+    "ner_tags": [
+      "O",
+      "B-NAME",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Trường_hợp",
+      "N.Q.T",
+      "đã",
+      "khỏi",
+      "bệnh",
+      "."
+    ],
+    "ner_tags": [
+      "O",
+      "B-NAME",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Ca",
+      "nhiễm",
+      "L.M.A",
+      "liên_quan",
+      "ổ_dịch",
+      "."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "B-NAME",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Bác_sĩ",
+      "hồi_sức",
+      "được",
+      "điều_động",
+      "tăng_cường",
+      "."
+    ],
+    "ner_tags": [
+      "B-JOB",
+      "I-JOB",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Nhân_viên",
+      "y_tế",
+      "cơ_sở",
+      "tham_gia",
+      "lấy_mẫu",
+      "."
+    ],
+    "ner_tags": [
+      "B-JOB",
+      "I-JOB",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Điều_dưỡng",
+      "trưởng",
+      "phụ_trách",
+      "khu",
+      "điều_trị",
+      "."
+    ],
+    "ner_tags": [
+      "B-JOB",
+      "I-JOB",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Cán_bộ",
+      "phòng_chống",
+      "dịch",
+      "được",
+      "phân_công",
+      "."
+    ],
+    "ner_tags": [
+      "B-JOB",
+      "I-JOB",
+      "I-JOB",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Bệnh_nhân",
+      "được",
+      "đưa",
+      "bằng",
+      "xe_cấp_cứu",
+      "."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-TRANSPORTATION",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Ca",
+      "bệnh",
+      "di_chuyển",
+      "trên",
+      "chuyến_bay",
+      "VN734",
+      "."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-TRANSPORTATION",
+      "I-TRANSPORTATION",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Người",
+      "tiếp_xúc",
+      "đi",
+      "tàu_hỏa",
+      "."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "B-TRANSPORTATION",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Bệnh_nhân",
+      "T.V.H",
+      "đang",
+      "điều_trị",
+      "."
+    ],
+    "ner_tags": [
+      "O",
+      "B-NAME",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Trường_hợp",
+      "N.Q.T",
+      "đã",
+      "khỏi",
+      "bệnh",
+      "."
+    ],
+    "ner_tags": [
+      "O",
+      "B-NAME",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Ca",
+      "nhiễm",
+      "L.M.A",
+      "liên_quan",
+      "ổ_dịch",
+      "."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "B-NAME",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Bác_sĩ",
+      "hồi_sức",
+      "được",
+      "điều_động",
+      "tăng_cường",
+      "."
+    ],
+    "ner_tags": [
+      "B-JOB",
+      "I-JOB",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Nhân_viên",
+      "y_tế",
+      "cơ_sở",
+      "tham_gia",
+      "lấy_mẫu",
+      "."
+    ],
+    "ner_tags": [
+      "B-JOB",
+      "I-JOB",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Điều_dưỡng",
+      "trưởng",
+      "phụ_trách",
+      "khu",
+      "điều_trị",
+      "."
+    ],
+    "ner_tags": [
+      "B-JOB",
+      "I-JOB",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Cán_bộ",
+      "phòng_chống",
+      "dịch",
+      "được",
+      "phân_công",
+      "."
+    ],
+    "ner_tags": [
+      "B-JOB",
+      "I-JOB",
+      "I-JOB",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Bệnh_nhân",
+      "được",
+      "đưa",
+      "bằng",
+      "xe_cấp_cứu",
+      "."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-TRANSPORTATION",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Ca",
+      "bệnh",
+      "di_chuyển",
+      "trên",
+      "chuyến_bay",
+      "VN734",
+      "."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-TRANSPORTATION",
+      "I-TRANSPORTATION",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Người",
+      "tiếp_xúc",
+      "đi",
+      "tàu_hỏa",
+      "."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "B-TRANSPORTATION",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Bệnh_nhân",
+      "T.V.H",
+      "đang",
+      "điều_trị",
+      "."
+    ],
+    "ner_tags": [
+      "O",
+      "B-NAME",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Trường_hợp",
+      "N.Q.T",
+      "đã",
+      "khỏi",
+      "bệnh",
+      "."
+    ],
+    "ner_tags": [
+      "O",
+      "B-NAME",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Ca",
+      "nhiễm",
+      "L.M.A",
+      "liên_quan",
+      "ổ_dịch",
+      "."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "B-NAME",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Bác_sĩ",
+      "hồi_sức",
+      "được",
+      "điều_động",
+      "tăng_cường",
+      "."
+    ],
+    "ner_tags": [
+      "B-JOB",
+      "I-JOB",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Nhân_viên",
+      "y_tế",
+      "cơ_sở",
+      "tham_gia",
+      "lấy_mẫu",
+      "."
+    ],
+    "ner_tags": [
+      "B-JOB",
+      "I-JOB",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Điều_dưỡng",
+      "trưởng",
+      "phụ_trách",
+      "khu",
+      "điều_trị",
+      "."
+    ],
+    "ner_tags": [
+      "B-JOB",
+      "I-JOB",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Cán_bộ",
+      "phòng_chống",
+      "dịch",
+      "được",
+      "phân_công",
+      "."
+    ],
+    "ner_tags": [
+      "B-JOB",
+      "I-JOB",
+      "I-JOB",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Bệnh_nhân",
+      "được",
+      "đưa",
+      "bằng",
+      "xe_cấp_cứu",
+      "."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-TRANSPORTATION",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Ca",
+      "bệnh",
+      "di_chuyển",
+      "trên",
+      "chuyến_bay",
+      "VN734",
+      "."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-TRANSPORTATION",
+      "I-TRANSPORTATION",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Người",
+      "tiếp_xúc",
+      "đi",
+      "tàu_hỏa",
+      "."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "B-TRANSPORTATION",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Bệnh_nhân",
+      "T.V.H",
+      "đang",
+      "điều_trị",
+      "."
+    ],
+    "ner_tags": [
+      "O",
+      "B-NAME",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Trường_hợp",
+      "N.Q.T",
+      "đã",
+      "khỏi",
+      "bệnh",
+      "."
+    ],
+    "ner_tags": [
+      "O",
+      "B-NAME",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Ca",
+      "nhiễm",
+      "L.M.A",
+      "liên_quan",
+      "ổ_dịch",
+      "."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "B-NAME",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Bác_sĩ",
+      "hồi_sức",
+      "được",
+      "điều_động",
+      "tăng_cường",
+      "."
+    ],
+    "ner_tags": [
+      "B-JOB",
+      "I-JOB",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Nhân_viên",
+      "y_tế",
+      "cơ_sở",
+      "tham_gia",
+      "lấy_mẫu",
+      "."
+    ],
+    "ner_tags": [
+      "B-JOB",
+      "I-JOB",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Điều_dưỡng",
+      "trưởng",
+      "phụ_trách",
+      "khu",
+      "điều_trị",
+      "."
+    ],
+    "ner_tags": [
+      "B-JOB",
+      "I-JOB",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Cán_bộ",
+      "phòng_chống",
+      "dịch",
+      "được",
+      "phân_công",
+      "."
+    ],
+    "ner_tags": [
+      "B-JOB",
+      "I-JOB",
+      "I-JOB",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Bệnh_nhân",
+      "được",
+      "đưa",
+      "bằng",
+      "xe_cấp_cứu",
+      "."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-TRANSPORTATION",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Ca",
+      "bệnh",
+      "di_chuyển",
+      "trên",
+      "chuyến_bay",
+      "VN734",
+      "."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-TRANSPORTATION",
+      "I-TRANSPORTATION",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Người",
+      "tiếp_xúc",
+      "đi",
+      "tàu_hỏa",
+      "."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "B-TRANSPORTATION",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Bệnh_nhân",
+      "T.V.H",
+      "đang",
+      "điều_trị",
+      "."
+    ],
+    "ner_tags": [
+      "O",
+      "B-NAME",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Trường_hợp",
+      "N.Q.T",
+      "đã",
+      "khỏi",
+      "bệnh",
+      "."
+    ],
+    "ner_tags": [
+      "O",
+      "B-NAME",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Ca",
+      "nhiễm",
+      "L.M.A",
+      "liên_quan",
+      "ổ_dịch",
+      "."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "B-NAME",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Bác_sĩ",
+      "hồi_sức",
+      "được",
+      "điều_động",
+      "tăng_cường",
+      "."
+    ],
+    "ner_tags": [
+      "B-JOB",
+      "I-JOB",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Nhân_viên",
+      "y_tế",
+      "cơ_sở",
+      "tham_gia",
+      "lấy_mẫu",
+      "."
+    ],
+    "ner_tags": [
+      "B-JOB",
+      "I-JOB",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Điều_dưỡng",
+      "trưởng",
+      "phụ_trách",
+      "khu",
+      "điều_trị",
+      "."
+    ],
+    "ner_tags": [
+      "B-JOB",
+      "I-JOB",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Cán_bộ",
+      "phòng_chống",
+      "dịch",
+      "được",
+      "phân_công",
+      "."
+    ],
+    "ner_tags": [
+      "B-JOB",
+      "I-JOB",
+      "I-JOB",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Bệnh_nhân",
+      "được",
+      "đưa",
+      "bằng",
+      "xe_cấp_cứu",
+      "."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-TRANSPORTATION",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Ca",
+      "bệnh",
+      "di_chuyển",
+      "trên",
+      "chuyến_bay",
+      "VN734",
+      "."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "O",
+      "B-TRANSPORTATION",
+      "I-TRANSPORTATION",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Người",
+      "tiếp_xúc",
+      "đi",
+      "tàu_hỏa",
+      "."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "O",
+      "B-TRANSPORTATION",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Bệnh_nhân",
+      "T.V.H",
+      "đang",
+      "điều_trị",
+      "."
+    ],
+    "ner_tags": [
+      "O",
+      "B-NAME",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Trường_hợp",
+      "N.Q.T",
+      "đã",
+      "khỏi",
+      "bệnh",
+      "."
+    ],
+    "ner_tags": [
+      "O",
+      "B-NAME",
+      "O",
+      "O",
+      "O",
+      "O"
+    ]
+  },
+  {
+    "tokens": [
+      "Ca",
+      "nhiễm",
+      "L.M.A",
+      "liên_quan",
+      "ổ_dịch",
+      "."
+    ],
+    "ner_tags": [
+      "O",
+      "O",
+      "B-NAME",
+      "O",
+      "O",
+      "O"
+    ]
+  }
+]

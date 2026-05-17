@@ -1,0 +1,17 @@
+Bác_sĩ	B-JOB
+được	O
+phân_công	O
+phụ_trách	O
+điều_trị	O
+bệnh_nhân	O
+F0	O
+.	O
+
+Nhân_viên	B-JOB
+y_tế	I-JOB
+tham_gia	O
+lấy_mẫu	O
+xét_nghiệm	O
+theo	O
+kế_hoạch	O
+.	O

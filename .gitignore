@@ -1,0 +1,57 @@
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyd
+*.pyo
+
+# ── Virtual environment ───────────────────────────────────────────────────────
+venv/
+.venv/
+env/
+
+# ── Model checkpoints (rất lớn, không push lên git) ──────────────────────────
+output/baseline_*/
+output/crf_*/
+
+# Giữ lại kết quả số và biểu đồ
+!output/multiseed_results.json
+!output/error_analysis.json
+!output/figures/
+!output/figures/**
+
+# ── File trọng số model (PyTorch / HuggingFace) ───────────────────────────────
+*.safetensors
+*.pt
+*.pth
+*.bin
+
+# ── Jupyter ───────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb
+
+# ── Logs & cache ──────────────────────────────────────────────────────────────
+*.log
+wandb/
+runs/
+.cache/
+huggingface/
+
+# ── Biến môi trường ───────────────────────────────────────────────────────────
+.env
+.env.*
+
+# ── IDE ───────────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ── Backup files ──────────────────────────────────────────────────────────────
+*.bak
+*.bak2
+*.aug_bak
+
+# ── OS ────────────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini

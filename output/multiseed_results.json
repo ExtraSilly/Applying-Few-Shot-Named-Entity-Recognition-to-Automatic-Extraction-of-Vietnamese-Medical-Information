@@ -1,0 +1,140 @@
+{
+  "k5": {
+    "micro_f1_mean": 68.0206,
+    "micro_f1_std": 1.2654,
+    "per_entity": {
+      "AGE": {
+        "mean": 87.4246,
+        "std": 0.4737
+      },
+      "DATE": {
+        "mean": 94.3991,
+        "std": 0.152
+      },
+      "GENDER": {
+        "mean": 84.7691,
+        "std": 1.4589
+      },
+      "JOB": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "LOCATION": {
+        "mean": 71.0183,
+        "std": 3.3713
+      },
+      "NAME": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "ORGANIZATION": {
+        "mean": 28.8148,
+        "std": 6.4709
+      },
+      "PATIENT_ID": {
+        "mean": 65.2703,
+        "std": 2.3152
+      },
+      "SYMPTOM_AND_DISEASE": {
+        "mean": 50.3737,
+        "std": 11.0434
+      },
+      "TRANSPORTATION": {
+        "mean": 3.5088,
+        "std": 4.9622
+      }
+    }
+  },
+  "k10": {
+    "micro_f1_mean": 83.3525,
+    "micro_f1_std": 0.7269,
+    "per_entity": {
+      "AGE": {
+        "mean": 87.9052,
+        "std": 0.12
+      },
+      "DATE": {
+        "mean": 94.7415,
+        "std": 1.0572
+      },
+      "GENDER": {
+        "mean": 81.9448,
+        "std": 3.6663
+      },
+      "JOB": {
+        "mean": 34.816,
+        "std": 5.0861
+      },
+      "LOCATION": {
+        "mean": 83.4769,
+        "std": 0.8601
+      },
+      "NAME": {
+        "mean": 80.6728,
+        "std": 3.866
+      },
+      "ORGANIZATION": {
+        "mean": 55.2957,
+        "std": 3.4082
+      },
+      "PATIENT_ID": {
+        "mean": 93.8042,
+        "std": 0.042
+      },
+      "SYMPTOM_AND_DISEASE": {
+        "mean": 73.9781,
+        "std": 2.305
+      },
+      "TRANSPORTATION": {
+        "mean": 90.5835,
+        "std": 1.8738
+      }
+    }
+  },
+  "k20": {
+    "micro_f1_mean": 88.1692,
+    "micro_f1_std": 0.3477,
+    "per_entity": {
+      "AGE": {
+        "mean": 88.2237,
+        "std": 0.2193
+      },
+      "DATE": {
+        "mean": 95.859,
+        "std": 0.4634
+      },
+      "GENDER": {
+        "mean": 86.5741,
+        "std": 0.0142
+      },
+      "JOB": {
+        "mean": 48.5933,
+        "std": 5.2668
+      },
+      "LOCATION": {
+        "mean": 89.362,
+        "std": 0.1596
+      },
+      "NAME": {
+        "mean": 92.2131,
+        "std": 0.5519
+      },
+      "ORGANIZATION": {
+        "mean": 72.0913,
+        "std": 1.0235
+      },
+      "PATIENT_ID": {
+        "mean": 96.507,
+        "std": 0.4483
+      },
+      "SYMPTOM_AND_DISEASE": {
+        "mean": 77.9242,
+        "std": 0.9172
+      },
+      "TRANSPORTATION": {
+        "mean": 91.6037,
+        "std": 0.1757
+      }
+    }
+  }
+}

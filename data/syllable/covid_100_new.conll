@@ -1,0 +1,689 @@
+Bác_sĩ	B-JOB
+hồi_sức	I-JOB
+được	O
+điều_động	O
+tăng_cường	O
+.	O
+
+Nhân_viên	B-JOB
+y_tế	I-JOB
+cơ_sở	O
+tham_gia	O
+lấy_mẫu	O
+.	O
+
+Điều_dưỡng	B-JOB
+trưởng	I-JOB
+phụ_trách	O
+khu	O
+điều_trị	O
+.	O
+
+Cán_bộ	B-JOB
+phòng_chống	I-JOB
+dịch	I-JOB
+được	O
+phân_công	O
+.	O
+
+Bệnh_nhân	O
+được	O
+đưa	O
+bằng	O
+xe_cấp_cứu	B-TRANSPORTATION
+.	O
+
+Ca	O
+bệnh	O
+di_chuyển	O
+trên	O
+chuyến_bay	B-TRANSPORTATION
+VN734	I-TRANSPORTATION
+.	O
+
+Người	O
+tiếp_xúc	O
+đi	O
+tàu_hỏa	B-TRANSPORTATION
+.	O
+
+Bệnh_nhân	O
+T.V.H	B-NAME
+đang	O
+điều_trị	O
+.	O
+
+Trường_hợp	O
+N.Q.T	B-NAME
+đã	O
+khỏi	O
+bệnh	O
+.	O
+
+Ca	O
+nhiễm	O
+L.M.A	B-NAME
+liên_quan	O
+ổ_dịch	O
+.	O
+
+Bác_sĩ	B-JOB
+hồi_sức	I-JOB
+được	O
+điều_động	O
+tăng_cường	O
+.	O
+
+Nhân_viên	B-JOB
+y_tế	I-JOB
+cơ_sở	O
+tham_gia	O
+lấy_mẫu	O
+.	O
+
+Điều_dưỡng	B-JOB
+trưởng	I-JOB
+phụ_trách	O
+khu	O
+điều_trị	O
+.	O
+
+Cán_bộ	B-JOB
+phòng_chống	I-JOB
+dịch	I-JOB
+được	O
+phân_công	O
+.	O
+
+Bệnh_nhân	O
+được	O
+đưa	O
+bằng	O
+xe_cấp_cứu	B-TRANSPORTATION
+.	O
+
+Ca	O
+bệnh	O
+di_chuyển	O
+trên	O
+chuyến_bay	B-TRANSPORTATION
+VN734	I-TRANSPORTATION
+.	O
+
+Người	O
+tiếp_xúc	O
+đi	O
+tàu_hỏa	B-TRANSPORTATION
+.	O
+
+Bệnh_nhân	O
+T.V.H	B-NAME
+đang	O
+điều_trị	O
+.	O
+
+Trường_hợp	O
+N.Q.T	B-NAME
+đã	O
+khỏi	O
+bệnh	O
+.	O
+
+Ca	O
+nhiễm	O
+L.M.A	B-NAME
+liên_quan	O
+ổ_dịch	O
+.	O
+
+Bác_sĩ	B-JOB
+hồi_sức	I-JOB
+được	O
+điều_động	O
+tăng_cường	O
+.	O
+
+Nhân_viên	B-JOB
+y_tế	I-JOB
+cơ_sở	O
+tham_gia	O
+lấy_mẫu	O
+.	O
+
+Điều_dưỡng	B-JOB
+trưởng	I-JOB
+phụ_trách	O
+khu	O
+điều_trị	O
+.	O
+
+Cán_bộ	B-JOB
+phòng_chống	I-JOB
+dịch	I-JOB
+được	O
+phân_công	O
+.	O
+
+Bệnh_nhân	O
+được	O
+đưa	O
+bằng	O
+xe_cấp_cứu	B-TRANSPORTATION
+.	O
+
+Ca	O
+bệnh	O
+di_chuyển	O
+trên	O
+chuyến_bay	B-TRANSPORTATION
+VN734	I-TRANSPORTATION
+.	O
+
+Người	O
+tiếp_xúc	O
+đi	O
+tàu_hỏa	B-TRANSPORTATION
+.	O
+
+Bệnh_nhân	O
+T.V.H	B-NAME
+đang	O
+điều_trị	O
+.	O
+
+Trường_hợp	O
+N.Q.T	B-NAME
+đã	O
+khỏi	O
+bệnh	O
+.	O
+
+Ca	O
+nhiễm	O
+L.M.A	B-NAME
+liên_quan	O
+ổ_dịch	O
+.	O
+
+Bác_sĩ	B-JOB
+hồi_sức	I-JOB
+được	O
+điều_động	O
+tăng_cường	O
+.	O
+
+Nhân_viên	B-JOB
+y_tế	I-JOB
+cơ_sở	O
+tham_gia	O
+lấy_mẫu	O
+.	O
+
+Điều_dưỡng	B-JOB
+trưởng	I-JOB
+phụ_trách	O
+khu	O
+điều_trị	O
+.	O
+
+Cán_bộ	B-JOB
+phòng_chống	I-JOB
+dịch	I-JOB
+được	O
+phân_công	O
+.	O
+
+Bệnh_nhân	O
+được	O
+đưa	O
+bằng	O
+xe_cấp_cứu	B-TRANSPORTATION
+.	O
+
+Ca	O
+bệnh	O
+di_chuyển	O
+trên	O
+chuyến_bay	B-TRANSPORTATION
+VN734	I-TRANSPORTATION
+.	O
+
+Người	O
+tiếp_xúc	O
+đi	O
+tàu_hỏa	B-TRANSPORTATION
+.	O
+
+Bệnh_nhân	O
+T.V.H	B-NAME
+đang	O
+điều_trị	O
+.	O
+
+Trường_hợp	O
+N.Q.T	B-NAME
+đã	O
+khỏi	O
+bệnh	O
+.	O
+
+Ca	O
+nhiễm	O
+L.M.A	B-NAME
+liên_quan	O
+ổ_dịch	O
+.	O
+
+Bác_sĩ	B-JOB
+hồi_sức	I-JOB
+được	O
+điều_động	O
+tăng_cường	O
+.	O
+
+Nhân_viên	B-JOB
+y_tế	I-JOB
+cơ_sở	O
+tham_gia	O
+lấy_mẫu	O
+.	O
+
+Điều_dưỡng	B-JOB
+trưởng	I-JOB
+phụ_trách	O
+khu	O
+điều_trị	O
+.	O
+
+Cán_bộ	B-JOB
+phòng_chống	I-JOB
+dịch	I-JOB
+được	O
+phân_công	O
+.	O
+
+Bệnh_nhân	O
+được	O
+đưa	O
+bằng	O
+xe_cấp_cứu	B-TRANSPORTATION
+.	O
+
+Ca	O
+bệnh	O
+di_chuyển	O
+trên	O
+chuyến_bay	B-TRANSPORTATION
+VN734	I-TRANSPORTATION
+.	O
+
+Người	O
+tiếp_xúc	O
+đi	O
+tàu_hỏa	B-TRANSPORTATION
+.	O
+
+Bệnh_nhân	O
+T.V.H	B-NAME
+đang	O
+điều_trị	O
+.	O
+
+Trường_hợp	O
+N.Q.T	B-NAME
+đã	O
+khỏi	O
+bệnh	O
+.	O
+
+Ca	O
+nhiễm	O
+L.M.A	B-NAME
+liên_quan	O
+ổ_dịch	O
+.	O
+
+Bác_sĩ	B-JOB
+hồi_sức	I-JOB
+được	O
+điều_động	O
+tăng_cường	O
+.	O
+
+Nhân_viên	B-JOB
+y_tế	I-JOB
+cơ_sở	O
+tham_gia	O
+lấy_mẫu	O
+.	O
+
+Điều_dưỡng	B-JOB
+trưởng	I-JOB
+phụ_trách	O
+khu	O
+điều_trị	O
+.	O
+
+Cán_bộ	B-JOB
+phòng_chống	I-JOB
+dịch	I-JOB
+được	O
+phân_công	O
+.	O
+
+Bệnh_nhân	O
+được	O
+đưa	O
+bằng	O
+xe_cấp_cứu	B-TRANSPORTATION
+.	O
+
+Ca	O
+bệnh	O
+di_chuyển	O
+trên	O
+chuyến_bay	B-TRANSPORTATION
+VN734	I-TRANSPORTATION
+.	O
+
+Người	O
+tiếp_xúc	O
+đi	O
+tàu_hỏa	B-TRANSPORTATION
+.	O
+
+Bệnh_nhân	O
+T.V.H	B-NAME
+đang	O
+điều_trị	O
+.	O
+
+Trường_hợp	O
+N.Q.T	B-NAME
+đã	O
+khỏi	O
+bệnh	O
+.	O
+
+Ca	O
+nhiễm	O
+L.M.A	B-NAME
+liên_quan	O
+ổ_dịch	O
+.	O
+
+Bác_sĩ	B-JOB
+hồi_sức	I-JOB
+được	O
+điều_động	O
+tăng_cường	O
+.	O
+
+Nhân_viên	B-JOB
+y_tế	I-JOB
+cơ_sở	O
+tham_gia	O
+lấy_mẫu	O
+.	O
+
+Điều_dưỡng	B-JOB
+trưởng	I-JOB
+phụ_trách	O
+khu	O
+điều_trị	O
+.	O
+
+Cán_bộ	B-JOB
+phòng_chống	I-JOB
+dịch	I-JOB
+được	O
+phân_công	O
+.	O
+
+Bệnh_nhân	O
+được	O
+đưa	O
+bằng	O
+xe_cấp_cứu	B-TRANSPORTATION
+.	O
+
+Ca	O
+bệnh	O
+di_chuyển	O
+trên	O
+chuyến_bay	B-TRANSPORTATION
+VN734	I-TRANSPORTATION
+.	O
+
+Người	O
+tiếp_xúc	O
+đi	O
+tàu_hỏa	B-TRANSPORTATION
+.	O
+
+Bệnh_nhân	O
+T.V.H	B-NAME
+đang	O
+điều_trị	O
+.	O
+
+Trường_hợp	O
+N.Q.T	B-NAME
+đã	O
+khỏi	O
+bệnh	O
+.	O
+
+Ca	O
+nhiễm	O
+L.M.A	B-NAME
+liên_quan	O
+ổ_dịch	O
+.	O
+
+Bác_sĩ	B-JOB
+hồi_sức	I-JOB
+được	O
+điều_động	O
+tăng_cường	O
+.	O
+
+Nhân_viên	B-JOB
+y_tế	I-JOB
+cơ_sở	O
+tham_gia	O
+lấy_mẫu	O
+.	O
+
+Điều_dưỡng	B-JOB
+trưởng	I-JOB
+phụ_trách	O
+khu	O
+điều_trị	O
+.	O
+
+Cán_bộ	B-JOB
+phòng_chống	I-JOB
+dịch	I-JOB
+được	O
+phân_công	O
+.	O
+
+Bệnh_nhân	O
+được	O
+đưa	O
+bằng	O
+xe_cấp_cứu	B-TRANSPORTATION
+.	O
+
+Ca	O
+bệnh	O
+di_chuyển	O
+trên	O
+chuyến_bay	B-TRANSPORTATION
+VN734	I-TRANSPORTATION
+.	O
+
+Người	O
+tiếp_xúc	O
+đi	O
+tàu_hỏa	B-TRANSPORTATION
+.	O
+
+Bệnh_nhân	O
+T.V.H	B-NAME
+đang	O
+điều_trị	O
+.	O
+
+Trường_hợp	O
+N.Q.T	B-NAME
+đã	O
+khỏi	O
+bệnh	O
+.	O
+
+Ca	O
+nhiễm	O
+L.M.A	B-NAME
+liên_quan	O
+ổ_dịch	O
+.	O
+
+Bác_sĩ	B-JOB
+hồi_sức	I-JOB
+được	O
+điều_động	O
+tăng_cường	O
+.	O
+
+Nhân_viên	B-JOB
+y_tế	I-JOB
+cơ_sở	O
+tham_gia	O
+lấy_mẫu	O
+.	O
+
+Điều_dưỡng	B-JOB
+trưởng	I-JOB
+phụ_trách	O
+khu	O
+điều_trị	O
+.	O
+
+Cán_bộ	B-JOB
+phòng_chống	I-JOB
+dịch	I-JOB
+được	O
+phân_công	O
+.	O
+
+Bệnh_nhân	O
+được	O
+đưa	O
+bằng	O
+xe_cấp_cứu	B-TRANSPORTATION
+.	O
+
+Ca	O
+bệnh	O
+di_chuyển	O
+trên	O
+chuyến_bay	B-TRANSPORTATION
+VN734	I-TRANSPORTATION
+.	O
+
+Người	O
+tiếp_xúc	O
+đi	O
+tàu_hỏa	B-TRANSPORTATION
+.	O
+
+Bệnh_nhân	O
+T.V.H	B-NAME
+đang	O
+điều_trị	O
+.	O
+
+Trường_hợp	O
+N.Q.T	B-NAME
+đã	O
+khỏi	O
+bệnh	O
+.	O
+
+Ca	O
+nhiễm	O
+L.M.A	B-NAME
+liên_quan	O
+ổ_dịch	O
+.	O
+
+Bác_sĩ	B-JOB
+hồi_sức	I-JOB
+được	O
+điều_động	O
+tăng_cường	O
+.	O
+
+Nhân_viên	B-JOB
+y_tế	I-JOB
+cơ_sở	O
+tham_gia	O
+lấy_mẫu	O
+.	O
+
+Điều_dưỡng	B-JOB
+trưởng	I-JOB
+phụ_trách	O
+khu	O
+điều_trị	O
+.	O
+
+Cán_bộ	B-JOB
+phòng_chống	I-JOB
+dịch	I-JOB
+được	O
+phân_công	O
+.	O
+
+Bệnh_nhân	O
+được	O
+đưa	O
+bằng	O
+xe_cấp_cứu	B-TRANSPORTATION
+.	O
+
+Ca	O
+bệnh	O
+di_chuyển	O
+trên	O
+chuyến_bay	B-TRANSPORTATION
+VN734	I-TRANSPORTATION
+.	O
+
+Người	O
+tiếp_xúc	O
+đi	O
+tàu_hỏa	B-TRANSPORTATION
+.	O
+
+Bệnh_nhân	O
+T.V.H	B-NAME
+đang	O
+điều_trị	O
+.	O
+
+Trường_hợp	O
+N.Q.T	B-NAME
+đã	O
+khỏi	O
+bệnh	O
+.	O
+
+Ca	O
+nhiễm	O
+L.M.A	B-NAME
+liên_quan	O
+ổ_dịch	O
+.	O
